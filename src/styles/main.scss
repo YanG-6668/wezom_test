@@ -1,7 +1,26 @@
-@import "utils";
+@import "normalize";
+@import "vars";
+@import "mixins";
 @import "fonts";
-@import "typography";
+@import "header";
+@import "service";
+@import "products";
+@import "footer";
+@import "modals";
+
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background: $c-gray;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
 }

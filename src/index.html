@@ -1,13 +1,1196 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    <link type="image/x-icon" rel="shortcut icon" href="./images/svg/wezom-logo.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Wezom test</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
+
   <body>
-    <h1>Hello Mate Academy</h1>
+
+    <div class="page">
+
+      <header class="header">
+
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top-wrapper">
+              <div class="header__burger">
+                <div class="header__burger-item"></div>
+                <div class="header__burger-item"></div>
+                <div class="header__burger-item"></div>
+              </div>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">главная</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link active">о компании</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">ссылка 1</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">ссылка 2</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#" class="nav__link">ссылка 3</a>
+                  </li>
+                </ul>
+              </nav>
+              <button class="header__btn">
+                <svg viewBox="0 0 16 15">
+                  <path
+                    d="M8,1.5A2.5,2.5,0,0,1,10.5,4V6s0,.06,0,.09l0,.18L10.35,7.4l1.08.41a4.77,4.77,0,0,1,3.07,4.44V13.5H1.5V12.25A4.77,4.77,0,0,1,4.57,7.81L5.65,7.4,5.53,6.25l0-.18V4A2.5,2.5,0,0,1,8,1.5M8,0A4,4,0,0,0,4,4V6a3.89,3.89,0,0,0,0,.41,6.25,6.25,0,0,0-4,5.84V15H16V12.25a6.25,6.25,0,0,0-4-5.84A3.89,3.89,0,0,0,12,6V4A4,4,0,0,0,8,0Z">
+                  </path>
+                </svg>
+                вход
+              </button>
+
+              <nav class="nav-mobile">
+                <ul class="nav-mobile__list">
+                  <li class="nav-mobile__item">
+                    <a href="#" class="nav-mobile__link">главная</a>
+                  </li>
+                  <li class="nav-mobile__item">
+                    <a href="#" class="nav-mobile__link">о компании</a>
+                  </li>
+                  <li class="nav-mobile__item">
+                    <a href="#" class="nav-mobile__link">ссылка 1</a>
+                  </li>
+                  <li class="nav-mobile__item">
+                    <a href="#" class="nav-mobile__link">ссылка 2</a>
+                  </li>
+                  <li class="nav-mobile__item">
+                    <a href="#" class="nav-mobile__link">ссылка 3</a>
+                  </li>
+                </ul>
+                <div class="nav-mobile__close"></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <div class="container">
+            <div class="header__bottom-wrapper">
+              <a href="#" class="header__logo">
+                <img src="./images/logo-header.png" alt="logo" class="header__logo-img">
+              </a>
+              <div class="header__phones">
+                <a href="tel:+3809817000740" class="header__phones-link">+380 98 170 00 740</a>
+                <a href="tel:+3809817000740" class="header__phones-link">+380 98 170 00 740</a>
+                <button class="header__phones-btn">
+                  <svg viewBox="0 0 11.81 16.26">
+                    <path
+                      d="M3.62,1.76,5.3,5.11,4,5.81l2.78,5.57,1.37-.69,1.75,3.43a4.33,4.33,0,0,1-2.08.64A2.31,2.31,0,0,1,6,14C4.73,12.66,1.68,8.5,1.5,4.83c0,0-.1-2.49,2.11-3.07M4.41,0,3.23.31A4.5,4.5,0,0,0,0,4.9c.21,4.33,3.66,8.81,5,10.18a3.81,3.81,0,0,0,2.81,1.19,5.82,5.82,0,0,0,2.9-.88l1.13-.74-.61-1.2L9.45,10,8.77,8.68l-1.33.67h0L6,6.46l0,0,1.31-.68L6.64,4.44,5,1.09,4.41,0Z">
+                    </path>
+                  </svg>
+                  перезвонить мне
+                </button>
+              </div>
+              <div class="header__icons">
+                <a href="#" class="header__icons-link">
+                  <svg viewBox="0 0 44.48 33.23">
+                    <line x1="7.17" y1="7.17" x2="16.01" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke="#b4b9bf" fill="none" />
+                    <line x1="28.69" y1="7.17" x2="37.53" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke="#b4b9bf" fill="none" />
+                    <path d="M7.17,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" stroke="#b4b9bf" fill="none" />
+                    <path d="M37.31,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" stroke="#ff8500" fill="none" />
+                    <line x1="22.39" y1="14.74" x2="22.39" y2="24.57" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" stroke="#b4b9bf" fill="none" />
+                    <circle cx="22.35" cy="7.84" r="6.34" stroke-width="3px" stroke-miterlimit="10" stroke="#b4b9bf"
+                      fill="#fff" />
+                    <circle cx="22.35" cy="7.84" r="2.44" fill="#b4b9bf" />
+                  </svg>
+                  сравнение<span class="header__compare--icon"></span>
+                </a>
+                <a href="#" class="header__icons-link">
+                  <svg viewBox="0 0 33.81 32.62">
+                    <path
+                      d="M23.95,9.29l6.84,2.12a2.15,2.15,0,0,1,1.05,3.39L27.4,20.41a2.15,2.15,0,0,0-.46,1.37l.1,7.16a2.15,2.15,0,0,1-2.9,2l-6.71-2.49a2.15,2.15,0,0,0-1.44,0L9.19,30.78a2.15,2.15,0,0,1-2.84-2.13l.3-7.15a2.15,2.15,0,0,0-.43-1.38L1.93,14.38A2.15,2.15,0,0,1,3.07,11L10,9.09a2.15,2.15,0,0,0,1.18-.83l4.13-5.85a2.15,2.15,0,0,1,3.55,0l4,6A2.15,2.15,0,0,0,23.95,9.29Z"
+                      stroke-width="3px" stroke="#b4b9bf" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="16.94" cy="17.27" r="4.05" transform="translate(-7.07 20.24) rotate(-52.6)"
+                      stroke-width="3px" stroke="#ff8500" stroke-miterlimit="10" fill="none" />
+                  </svg>
+                  избранное<span class="header__favorite--icon"></span>
+                </a>
+                <a href="#" class="header__icons-link">
+                  <svg viewBox="0 0 39.33 34.71">
+                    <line x1="34.29" y1="13.86" x2="24" y2="13.86" stroke-width="3px" stroke="#ff8500"
+                      stroke-linecap="round" stroke-miterlimit="10" fill="#ffeec7" />
+                    <polyline points="1.5 1.5 8.67 1.5 18.17 20.57 32.83 20.57 37.83 6.8 19.5 6.8" stroke-width="3px"
+                      stroke-linejoin="round" stroke-linecap="round" stroke="#b4b9bf" fill="none" />
+                    <circle cx="19.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" stroke="#b4b9bf"
+                      fill="none" />
+                    <circle cx="32.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" stroke="#b4b9bf"
+                      fill="none" />
+                  </svg>
+                  корзина
+
+                  <span class="header__icons-basket">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="service">
+        <div class="container">
+          <div class="service__wrapper">
+
+            <aside class="service__aside">
+              <nav class="service__nav">
+                <div class="service__nav-header">
+                  <div class="service__nav-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px"
+                      height="10px">
+                      <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                        d="M-0.000,5.999 L-0.000,4.000 L14.000,4.000 L14.000,5.999 L-0.000,5.999 ZM-0.000,-0.000 L10.000,-0.000 L10.000,2.000 L-0.000,2.000 L-0.000,-0.000 ZM7.000,10.000 L-0.000,10.000 L-0.000,8.000 L7.000,8.000 L7.000,10.000 Z" />
+                    </svg>
+                  </div>
+                  <h3 class="service__nav-title">
+                    Меню
+                  </h3>
+                </div>
+                <ul class="service__nav-list">
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 1</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 2</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 3</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 4</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 5</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 6</a>
+                  </li>
+                  <li class="service__nav-item">
+                    <a href="#" class="service__nav-link">ссылка 7</a>
+                  </li>
+                </ul>
+              </nav>
+            </aside>
+
+            <div class="service__info">
+
+              <form action="" class="service__search">
+                <input type="search" name="search" id="" class="service__search-input" placeholder="Поиск по сайту"
+                  data-validate-field="search" />
+                <div class="service__search-wrapper">
+                  <select class="service__search-select">
+                    <option class="service__search-option" value="все" selected>Все категории</option>
+                    <option class="service__search-option" value="легковые">Легковые</option>
+                    <option class="service__search-option" value="грузовые">Грузовые</option>
+                  </select>
+                </div>
+                <button class="service__search-btn">поиск</button>
+              </form>
+
+              <div class="service__tabs">
+                <div class="service__btns">
+                  <button class="service__btns-btn active" data-id="car">
+                    <svg viewBox="0 0 39.71 16.75" fill="red">
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="29.24" y1="12.73" x2="12.47"
+                        y2="12.73" />
+                      <path fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        d="M5.88,12.73S1,12.58,1,9.92c0-1.47,0-3,0-4A1.37,1.37,0,0,1,2.39,4.55h2S10.7.81,17.45,1c4.15.38,4.61.75,8.69,3.35,1.46.93,5.34,1.84,7.79,2.1,3,.32,5.21,2.6,4.72,5.58,0,.07-.08.63-.09.69h-3.2" />
+                      <path fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        d="M1.79,6.87h1.7a1,1,0,0,1,1,1v0a1.7,1.7,0,0,1-1.7,1.7h-1a0,0,0,0,1,0,0V6.87a0,0,0,0,1,0,0Z" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="9.14" cy="12.73" r="3.03" />
+                      <circle fill="none" stroke-miterlimit="10" cx="9.14" cy="12.65" r="0.81" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="31.96" cy="12.73" r="3.03" />
+                      <circle fill="none" stroke-miterlimit="10" cx="31.96" cy="12.65" r="0.81" />
+                      <path fill="none" stroke-miterlimit="10" stroke-linecap="round" stroke-width="2px"
+                        d="M7.13,3.21S8.4,6.33,10.57,6.33h22.2" />
+                      <line fill="none" stroke-miterlimit="10" stroke-linecap="round" stroke-width="2px" x1="9.95"
+                        y1="9.27" x2="11.36" y2="1.76" />
+                      <polyline fill="none" stroke-miterlimit="10" stroke-linecap="round" stroke-width="2px"
+                        points="19.44 12.35 19.44 5.96 17.82 1.39" />
+                      <path fill="none" stroke-miterlimit="10" stroke-width="2px" d="M37.76,8.94A.94.94,0,1,1,37,7.83" />
+                    </svg>
+                    Ссылка 1
+                  </button>
+                  <button class="service__btns-btn" data-id="truck">
+                    <svg viewBox="0 0 45.83 31.09">
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="6.69" cy="26.6" r="3.48" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="6.69" cy="26.49" r="1.11" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="14.07" cy="26.6" r="3.48" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="14.07" cy="26.49" r="1.11" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="37.17" cy="26.6" r="3.48" />
+                      <circle fill="none" stroke-miterlimit="10" stroke-width="2px" cx="37.17" cy="26.49" r="1.11" />
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="33.69" y1="26.26" x2="17.75"
+                        y2="26.26" />
+                      <rect fill="none" stroke-miterlimit="10" stroke-width="2px" x="23.16" y="13.84" width="3.67"
+                        height="8.56" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="26.83" y1="1"
+                        x2="26.83" y2="22.4" />
+                      <polyline stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        points="21.67 6.26 25.04 9.63 25.04 13.74" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="9.19"
+                        y1="22.4" x2="14.85" y2="19.31" />
+                      <path stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        d="M1,22.4H30.8l1.88-.89a8.65,8.65,0,0,1,8.85.86L43.2,23.6a1,1,0,0,0,1.64.25h0v-3.2a1.47,1.47,0,0,0-1.47-1.47h0V16.65l.18-.11a2.72,2.72,0,0,0,1.3-2.32V6h0a3.12,3.12,0,0,0-3.12-3.14H30a3.26,3.26,0,0,0-3.26,3.26V22.4" />
+                      <polyline fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        points="44.83 11.27 38.84 11.27 37.17 10.07 34.97 10.07 34.97 21.14" />
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="34.2" y1="2.88" x2="34.2"
+                        y2="10.07" />
+                      <path fill="none" stroke-miterlimit="10" stroke-width="2px" d="M36.38,2.88" />
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="36.6" y1="2.88" x2="36.6"
+                        y2="20.43" />
+                      <path fill="none" stroke-miterlimit="10" stroke-width="2px"
+                        d="M28.4,13h2.73a0,0,0,0,1,0,0v0a2.42,2.42,0,0,1-2.42,2.42H28.4a0,0,0,0,1,0,0V13A0,0,0,0,1,28.4,13Z" />
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="28.12" y1="17.42" x2="30.95"
+                        y2="17.42" />
+                      <line fill="none" stroke-miterlimit="10" stroke-width="2px" x1="28.12" y1="19.38" x2="30.95"
+                        y2="19.38" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="44.83"
+                        y1="13.52" x2="40.65" y2="13.52" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="44.83"
+                        y1="15.24" x2="42.31" y2="15.24" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="28.98"
+                        y1="6.26" x2="33.69" y2="6.26" />
+                      <line stroke-linecap="round" fill="none" stroke-miterlimit="10" stroke-width="2px" x1="28.4"
+                        y1="8.29" x2="33.69" y2="8.29" />
+                    </svg>
+                    Ссылка 2
+                  </button>
+                  <button class="service__btns-btn" data-id="wheel">
+                    <svg viewBox="0 0 24.25 24.25">
+                      <circle stroke-width="2px" fill="none" stroke-miterlimit="10" cx="12.13" cy="12.13" r="11.13" />
+                      <circle stroke-width="2px" fill="none" stroke-miterlimit="10" cx="12.13" cy="12.13" r="8.34" />
+                      <circle stroke-width="2px" fill="none" stroke-miterlimit="10" cx="12.13" cy="12.13" r="3.16" />
+                      <circle fill="#5a5959" cx="12.13" cy="12.13" r="0.64" />
+                      <line fill="none" stroke-miterlimit="10" x1="8.96" y1="12.77" x2="1.98" y2="15.5" />
+                      <line fill="none" stroke-miterlimit="10" x1="15.47" y1="12.77" x2="22.45" y2="15.5" />
+                      <line fill="none" stroke-miterlimit="10" x1="12.03" y1="23.25" x2="12.13" y2="15.29" />
+                      <line fill="none" stroke-miterlimit="10" x1="5.47" y1="3.1" x2="10.25" y2="9.67" />
+                      <line fill="none" stroke-miterlimit="10" x1="18.5" y1="3.1" x2="13.71" y2="9.67" />
+                    </svg>
+                    Ссылка 3
+                  </button>
+                  <button class="service__btns-btn" data-id="oil">
+                    <svg viewBox="0 0 21.95 28.51">
+                      <polyline stroke-width="2px" fill="none" stroke-miterlimit="10"
+                        points="5.61 24.73 5.61 27.51 20.95 27.51 20.95 10.65 13.5 5.21 5.61 5.26 5.61 11.24" />
+                      <polygon stroke-width="2px" fill="none" stroke-miterlimit="10"
+                        points="12.75 4.94 5.61 4.97 5.61 1.04 12.75 1 12.75 4.94" />
+                      <line fill="none" stroke-miterlimit="10" x1="8.14" y1="0.97" x2="8.14" y2="4.47" />
+                      <line fill="none" stroke-miterlimit="10" x1="10.11" y1="1" x2="10.11" y2="4.5" />
+                      <path fill="none" stroke-miterlimit="10" d="M11.52,4.5" />
+                      <path fill="none" stroke-miterlimit="10" d="M11.11,1" />
+                      <path stroke-width="2px" fill="none" stroke-miterlimit="10"
+                        d="M5.8,10.17,1.74,16.62A4.79,4.79,0,0,0,5.8,24h0a4.79,4.79,0,0,0,4.05-7.33Z" />
+                      <line fill="none" stroke-miterlimit="10" x1="8.52" y1="14.5" x2="20.95" y2="14.5" />
+                      <line fill="none" stroke-miterlimit="10" x1="20.95" y1="20.08" x2="10.53" y2="20.08" />
+                    </svg>
+                    Ссылка 4
+                  </button>
+                  <button class="service__btns-btn" data-id="accumulator">
+                    <svg viewBox="0 0 25.25 23.23">
+                      <rect stroke-width="2px" fill="none" stroke-miterlimit="10" x="1" y="4.88" width="23.25"
+                        height="17.35" />
+                      <rect stroke-width="2px" fill="none" stroke-miterlimit="10" x="2.94" y="1" width="5.44"
+                        height="3.63" />
+                      <rect stroke-width="2px" fill="none" stroke-miterlimit="10" x="16.94" y="1" width="5.44"
+                        height="3.63" />
+                      <line fill="none" stroke-miterlimit="10" x1="1" y1="8.75" x2="24.25" y2="8.75" />
+                      <line fill="none" stroke-miterlimit="10" x1="4.44" y1="14.5" x2="8.69" y2="14.5" />
+                      <line fill="none" stroke-miterlimit="10" x1="16.44" y1="14.5" x2="20.69" y2="14.5" />
+                      <line fill="none" stroke-miterlimit="10" x1="6.56" y1="12.38" x2="6.56" y2="16.63" />
+                    </svg>
+                    Ссылка 5
+                  </button>
+                </div>
+
+                <div class="service__contents">
+
+                  <div class="service__content active" id="car">
+                    <form action="" class="service__form">
+
+                      <div class="service__checkbox">
+                        <div class="service__checkbox-tab1">Tab 1</div>
+                        <div class="service__checkbox-tab2">Tab 2</div>
+                      </div>
+
+                      <div class="service__form-selects">
+                        <div class="service__form-wrapper">
+                          <select name="select1" class="service__form-select" data-validate-field="select1">
+                            <option value="select1" selected>Select 1</option>
+                            <option value="select2">Select 2</option>
+                            <option value="select3">Select 3</option>
+                            <option value="select4">Select 4</option>
+                            <option value="select5">Select 5</option>
+                            <option value="select6">Select 6</option>
+                          </select>
+                        </div>
+                        <div class="service__form-wrapper">
+                          <select name="select2" class="service__form-select" data-validate-field="select2">
+                            <option value="select1">Select 1</option>
+                            <option value="select2" selected>Select 2</option>
+                            <option value="select3">Select 3</option>
+                            <option value="select4">Select 4</option>
+                            <option value="select5">Select 5</option>
+                            <option value="select6">Select 6</option>
+                          </select>
+                        </div>
+                        <div class="service__form-wrapper">
+                          <select name="select3" class="service__form-select" data-validate-field="select3">
+                            <option value="select1">Select 1</option>
+                            <option value="select2">Select 2</option>
+                            <option value="select3" selected>Select 3</option>
+                            <option value="select4">Select 4</option>
+                            <option value="select5">Select 5</option>
+                            <option value="select6">Select 6</option>
+                          </select>
+                        </div>
+                        <div class="service__form-wrapper">
+                          <select name="select4" class="service__form-select" data-validate-field="select4">
+                            <option value="select1">Select 1</option>
+                            <option value="select2">Select 2</option>
+                            <option value="select3">Select 3</option>
+                            <option value="select4" selected>Select 4</option>
+                            <option value="select5">Select 5</option>
+                            <option value="select6">Select 6</option>
+                          </select>
+                        </div>
+                        <div class="service__form-wrapper">
+                          <select name="select5" class="service__form-select" data-validate-field="select5">
+                            <option value="select1">Select 1</option>
+                            <option value="select2">Select 2</option>
+                            <option value="select3">Select 3</option>
+                            <option value="select4">Select 4</option>
+                            <option value="select5">Select 5</option>
+                            <option value="select6" selected>Select 6</option>
+                          </select>
+                        </div>
+                        <div class="service__range">
+                          <label for="priceTo" class="service__range-label">Цена</label>
+                          <div class="service__range-wrapper">
+                            <input type="number" name="number1" class="service__range-input" data-validate-field="number1"
+                              value="" placeholder="50" />
+                          </div>
+                          <div class="service__range-wrapper">
+                            <input type="number" name="number2" id="priceTo" class="service__range-input" value=""
+                              placeholder="250000" data-validate-field="number2" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="service__form-btns">
+                        <button class="service__form-btn"><span></span>Очистить фильтр</button>
+                        <button class="service__form-btn">применить фильтр</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="service__content" id="truck">
+                    <h1>Hello-2</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam praesentium, commodi,
+                      rerum eveniet dolores ipsam veniam itaque dignissimos saepe eos dolorum maiores incidunt, ad error
+                      quos aperiam id voluptate?
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, molestiae exercitationem inventore
+                      magni neque, voluptatibus iste vitae eum modi impedit illo? Nostrum neque incidunt quos quam. Rerum
+                      dolor maxime facilis?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam praesentium, commodi,
+                      rerum eveniet dolores ipsam veniam itaque dignissimos saepe eos dolorum maiores incidunt, ad error
+                      quos aperiam id voluptate?
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, molestiae exercitationem inventore
+                      magni neque, voluptatibus iste vitae eum modi impedit illo? Nostrum neque incidunt quos quam. Rerum
+                      dolor maxime facilis?
+                    </p>
+                  </div>
+                  <div class="service__content" id="wheel">
+                    <h1>Hello-3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam praesentium, commodi,
+                      rerum eveniet dolores ipsam veniam itaque dignissimos saepe eos dolorum maiores incidunt, ad error
+                      quos aperiam id voluptate?
+                    </p>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                      <li>4</li>
+                      <li>5</li>
+                      <li>6</li>
+                      <li>7</li>
+                      <li>8</li>
+                      <li>9</li>
+                      <li>10</li>
+                    </ul>
+                  </div>
+                  <div class="service__content" id="oil">
+                    <h1>Hello-4</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam praesentium, commodi,
+                      rerum eveniet dolores ipsam veniam itaque dignissimos saepe eos dolorum maiores incidunt, ad error
+                      quos aperiam id voluptate?
+                    </p>
+                  </div>
+                  <div class="service__content" id="accumulator">
+                    <h1>Hello-5</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laboriosam praesentium, commodi,
+                      rerum eveniet dolores ipsam veniam itaque dignissimos saepe eos dolorum maiores incidunt, ad error
+                      quos aperiam id voluptate?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <div class="products__header">
+            <h1 class="products__header-title">
+              Карточки товаров
+            </h1>
+            <a href="#" class="products__header-link">
+              Ссылка в каталог
+            </a>
+          </div>
+          <div class="products__wrapper">
+
+            <div class="products__item">
+              <span class="products__mark">
+                Mark
+              </span>
+              <a href="#" class="products__item-title">
+                Антифриз Fosser Antifreeze
+                FA 12 Readymix 1 л Concentrat, Germany
+              </a>
+              <div class="products__rating">
+                <div class="products__rating-stars stars--5">
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                </div>
+                <a href="#" class="products__rating-testimotional">
+                  Отзывы (<span>10</span>)
+                </a>
+                <div class="products__rating-present">
+                  В наличии: <span>24</span> шт.
+                </div>
+              </div>
+              <img src="./images/wheel-1.png" alt="wheel" class="products__item-img">
+
+              <div class="products__features">
+                <div class="products__features-new">Новинка</div>
+                <div class="products__features-hit">Хит</div>
+                <div class="products__features-discount">Скидка</div>
+              </div>
+              <div class="products__price">
+                <div class="products__price-new">599 грн.</div>
+                <div class="products__price-old">1250 грн.</div>
+              </div>
+              <button class="products__item-buy">
+                <svg viewBox="0 0 39.33 34.71">
+                  <line x1="34.29" y1="13.86" x2="24" y2="13.86" stroke-width="3px" stroke-linecap="round"
+                    stroke-miterlimit="10" fill="#fff" />
+                  <polyline points="1.5 1.5 8.67 1.5 18.17 20.57 32.83 20.57 37.83 6.8 19.5 6.8" stroke-width="3px"
+                    stroke-linejoin="round" stroke-linecap="round" fill="none" />
+                  <circle cx="19.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  <circle cx="32.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                </svg>
+                купить товар
+              </button>
+              <div class="products__btns">
+                <button class="products__btns-btn compare--btn">
+                  <svg viewBox="0 0 44.48 33.23">
+                    <line x1="7.17" y1="7.17" x2="16.01" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <line x1="28.69" y1="7.17" x2="37.53" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M7.17,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <path d="M37.31,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <line x1="22.39" y1="14.74" x2="22.39" y2="24.57" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <circle cx="22.35" cy="7.84" r="6.34" stroke-width="3px" stroke-miterlimit="10" fill="#fff" />
+                    <circle cx="22.35" cy="7.84" r="2.44" fill="#ff8500" />
+                  </svg>
+                  Сравнить товар
+                </button>
+                <button class="products__btns-btn favorite--btn">
+                  <svg viewBox="0 0 33.81 32.62">
+                    <path
+                      d="M23.95,9.29l6.84,2.12a2.15,2.15,0,0,1,1.05,3.39L27.4,20.41a2.15,2.15,0,0,0-.46,1.37l.1,7.16a2.15,2.15,0,0,1-2.9,2l-6.71-2.49a2.15,2.15,0,0,0-1.44,0L9.19,30.78a2.15,2.15,0,0,1-2.84-2.13l.3-7.15a2.15,2.15,0,0,0-.43-1.38L1.93,14.38A2.15,2.15,0,0,1,3.07,11L10,9.09a2.15,2.15,0,0,0,1.18-.83l4.13-5.85a2.15,2.15,0,0,1,3.55,0l4,6A2.15,2.15,0,0,0,23.95,9.29Z"
+                      stroke-width="3px" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="16.94" cy="17.27" r="4.05" transform="translate(-7.07 20.24) rotate(-52.6)"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  </svg>
+                  В избранное
+                </button>
+              </div>
+              <div class="products__extra">
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 37.29 37.29">
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      cx="18.65" cy="18.7" r="5.45" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="8.22" x2="18.65" y2="1.5" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="35.79" x2="18.65" y2="29.08" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="11.27" x2="30.77" y2="6.52" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="30.77" x2="11.27" y2="26.02" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="29.08" y1="18.65" x2="35.79" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="1.5" y1="18.65" x2="8.22" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="26.02" x2="30.77" y2="30.77" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="6.52" x2="11.27" y2="11.27" />
+                  </svg>
+                  летняя
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 52.69 25.35">
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="35.22" y1="19.5" x2="17.4" y2="19.5" />
+                    <path fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      d="M8.26,19.5a14.4,14.4,0,0,1-1.84,0c-2-.1-4.92-.67-4.92-3.09,0-3.23,3.92-6.37,6.53-7,2.33-.55,7.3-.85,12.43-4.85a14.49,14.49,0,0,1,7.48-2.93c1-.1,2-.15,2.94-.16a14.76,14.76,0,0,1,8.31,2.42L42.38,6a10.64,10.64,0,0,0,4.83,1.68l1.65.15a2.57,2.57,0,0,1,2.33,2.56v6S51.11,19.5,45,19.5" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="12.97" cy="19.54" r="4.31" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="40" cy="19.54" r="4.31" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="12.97" y1="8.37" x2="30.22" y2="8.37" />
+                  </svg>
+                  легковая
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 47.5 24.62">
+                    <polygon fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500"
+                      stroke-linejoin="round" points="46 23.12 7.5 23.12 1.5 12.31 7.5 1.5 46 1.5 46 23.12" />
+                    <circle fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500" stroke-miterlimit="10"
+                      cx="11.89" cy="12.37" r="3.3" />
+                    <path fill="#ff8500" d="M23.33,15.17l-2.46-3.38v3.38h-2V8.5h2.08l2.32,3.16V8.5h2v6.67Z" />
+                    <path fill="#ff8500" d="M26.35,15.17V8.5h5.06v1.76h-3v.66h3v1.76h-3v.73h3v1.76Z" />
+                    <path fill="#ff8500"
+                      d="M37.4,15.17l-.86-3.78-.86,3.78H33.56L31.65,8.5h2.26l.86,4.08,1-4.08H37.3l1,4.08.85-4.08h2.27l-1.91,6.67Z" />
+                  </svg>
+                  новая
+                </div>
+              </div>
+            </div>
+
+            <div class="products__item">
+              <span class="products__mark">
+                Mark
+              </span>
+              <a href="#" class="products__item-title">
+                Антифриз Fosser Antifreeze
+                FA 12 Readymix 1 л Concentrat, Germany
+              </a>
+              <div class="products__rating">
+                <div class="products__rating-stars stars--3">
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                </div>
+                <a href="#" class="products__rating-testimotional">
+                  Отзывы (<span>10</span>)
+                </a>
+                <div class="products__rating-present">
+                  В наличии: <span>24</span> шт.
+                </div>
+              </div>
+              <img src="./images/wheel-2.png" alt="wheel" class="products__item-img">
+
+              <div class="products__features">
+                <div class="products__features-new">Новинка</div>
+                <div class="products__features-hit">Хит</div>
+              </div>
+              <div class="products__price">
+                <div class="products__price-new">599 грн.</div>
+                <div class="products__price-old">1250 грн.</div>
+              </div>
+              <button class="products__item-buy">
+                <svg viewBox="0 0 39.33 34.71">
+                  <line x1="34.29" y1="13.86" x2="24" y2="13.86" stroke-width="3px" stroke-linecap="round"
+                    stroke-miterlimit="10" fill="#fff" />
+                  <polyline points="1.5 1.5 8.67 1.5 18.17 20.57 32.83 20.57 37.83 6.8 19.5 6.8" stroke-width="3px"
+                    stroke-linejoin="round" stroke-linecap="round" fill="none" />
+                  <circle cx="19.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  <circle cx="32.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                </svg>
+                купить товар
+              </button>
+              <div class="products__btns">
+                <button class="products__btns-btn compare--btn">
+                  <svg viewBox="0 0 44.48 33.23">
+                    <line x1="7.17" y1="7.17" x2="16.01" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <line x1="28.69" y1="7.17" x2="37.53" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M7.17,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <path d="M37.31,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <line x1="22.39" y1="14.74" x2="22.39" y2="24.57" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <circle cx="22.35" cy="7.84" r="6.34" stroke-width="3px" stroke-miterlimit="10" fill="#fff" />
+                    <circle cx="22.35" cy="7.84" r="2.44" fill="#ff8500" />
+                  </svg>
+                  Сравнить товар
+                </button>
+                <button class="products__btns-btn favorite--btn">
+                  <svg viewBox="0 0 33.81 32.62">
+                    <path
+                      d="M23.95,9.29l6.84,2.12a2.15,2.15,0,0,1,1.05,3.39L27.4,20.41a2.15,2.15,0,0,0-.46,1.37l.1,7.16a2.15,2.15,0,0,1-2.9,2l-6.71-2.49a2.15,2.15,0,0,0-1.44,0L9.19,30.78a2.15,2.15,0,0,1-2.84-2.13l.3-7.15a2.15,2.15,0,0,0-.43-1.38L1.93,14.38A2.15,2.15,0,0,1,3.07,11L10,9.09a2.15,2.15,0,0,0,1.18-.83l4.13-5.85a2.15,2.15,0,0,1,3.55,0l4,6A2.15,2.15,0,0,0,23.95,9.29Z"
+                      stroke-width="3px" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="16.94" cy="17.27" r="4.05" transform="translate(-7.07 20.24) rotate(-52.6)"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  </svg>
+                  В избранное
+                </button>
+              </div>
+              <div class="products__extra">
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 37.29 37.29">
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      cx="18.65" cy="18.7" r="5.45" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="8.22" x2="18.65" y2="1.5" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="35.79" x2="18.65" y2="29.08" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="11.27" x2="30.77" y2="6.52" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="30.77" x2="11.27" y2="26.02" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="29.08" y1="18.65" x2="35.79" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="1.5" y1="18.65" x2="8.22" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="26.02" x2="30.77" y2="30.77" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="6.52" x2="11.27" y2="11.27" />
+                  </svg>
+                  летняя
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 47.5 24.62">
+                    <polygon fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500"
+                      stroke-linejoin="round" points="46 23.12 7.5 23.12 1.5 12.31 7.5 1.5 46 1.5 46 23.12" />
+                    <circle fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500" stroke-miterlimit="10"
+                      cx="11.89" cy="12.37" r="3.3" />
+                    <path fill="#ff8500" d="M23.33,15.17l-2.46-3.38v3.38h-2V8.5h2.08l2.32,3.16V8.5h2v6.67Z" />
+                    <path fill="#ff8500" d="M26.35,15.17V8.5h5.06v1.76h-3v.66h3v1.76h-3v.73h3v1.76Z" />
+                    <path fill="#ff8500"
+                      d="M37.4,15.17l-.86-3.78-.86,3.78H33.56L31.65,8.5h2.26l.86,4.08,1-4.08H37.3l1,4.08.85-4.08h2.27l-1.91,6.67Z" />
+                  </svg>
+                  новая
+                </div>
+              </div>
+            </div>
+
+            <div class="products__item">
+              <span class="products__mark">
+                Mark
+              </span>
+              <a href="#" class="products__item-title">
+                Антифриз Fosser Antifreeze
+                FA 12 Readymix 1 л Concentrat, Germany
+              </a>
+              <div class="products__rating">
+                <div class="products__rating-stars stars--0">
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                </div>
+                <a href="#" class="products__rating-testimotional">
+                  без отзывов
+                </a>
+                <div class="products__rating-present">
+                  В наличии: <span>24</span> шт.
+                </div>
+              </div>
+              <img src="./images/wheel-3.png" alt="wheel" class="products__item-img">
+
+              <div class="products__features">
+                <div class="products__features-new">Новинка</div>
+              </div>
+              <div class="products__price">
+                <div class="products__price-new">9 570 грн.</div>
+                <div class="products__price-old">11 250 грн.</div>
+              </div>
+              <button class="products__item-buy">
+                <svg viewBox="0 0 39.33 34.71">
+                  <line x1="34.29" y1="13.86" x2="24" y2="13.86" stroke-width="3px" stroke-linecap="round"
+                    stroke-miterlimit="10" fill="#fff" />
+                  <polyline points="1.5 1.5 8.67 1.5 18.17 20.57 32.83 20.57 37.83 6.8 19.5 6.8" stroke-width="3px"
+                    stroke-linejoin="round" stroke-linecap="round" fill="none" />
+                  <circle cx="19.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  <circle cx="32.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                </svg>
+                купить товар
+              </button>
+              <div class="products__btns">
+                <button class="products__btns-btn compare--btn">
+                  <svg viewBox="0 0 44.48 33.23">
+                    <line x1="7.17" y1="7.17" x2="16.01" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <line x1="28.69" y1="7.17" x2="37.53" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M7.17,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <path d="M37.31,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <line x1="22.39" y1="14.74" x2="22.39" y2="24.57" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <circle cx="22.35" cy="7.84" r="6.34" stroke-width="3px" stroke-miterlimit="10" fill="#fff" />
+                    <circle cx="22.35" cy="7.84" r="2.44" fill="#ff8500" />
+                  </svg>
+                  Сравнить товар
+                </button>
+                <button class="products__btns-btn favorite--btn">
+                  <svg viewBox="0 0 33.81 32.62">
+                    <path
+                      d="M23.95,9.29l6.84,2.12a2.15,2.15,0,0,1,1.05,3.39L27.4,20.41a2.15,2.15,0,0,0-.46,1.37l.1,7.16a2.15,2.15,0,0,1-2.9,2l-6.71-2.49a2.15,2.15,0,0,0-1.44,0L9.19,30.78a2.15,2.15,0,0,1-2.84-2.13l.3-7.15a2.15,2.15,0,0,0-.43-1.38L1.93,14.38A2.15,2.15,0,0,1,3.07,11L10,9.09a2.15,2.15,0,0,0,1.18-.83l4.13-5.85a2.15,2.15,0,0,1,3.55,0l4,6A2.15,2.15,0,0,0,23.95,9.29Z"
+                      stroke-width="3px" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="16.94" cy="17.27" r="4.05" transform="translate(-7.07 20.24) rotate(-52.6)"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  </svg>
+                  В избранное
+                </button>
+              </div>
+              <div class="products__extra">
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 37.29 37.29">
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      cx="18.65" cy="18.7" r="5.45" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="8.22" x2="18.65" y2="1.5" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="35.79" x2="18.65" y2="29.08" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="11.27" x2="30.77" y2="6.52" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="30.77" x2="11.27" y2="26.02" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="29.08" y1="18.65" x2="35.79" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="1.5" y1="18.65" x2="8.22" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="26.02" x2="30.77" y2="30.77" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="6.52" x2="11.27" y2="11.27" />
+                  </svg>
+                  летняя
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 52.69 25.35">
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="35.22" y1="19.5" x2="17.4" y2="19.5" />
+                    <path fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      d="M8.26,19.5a14.4,14.4,0,0,1-1.84,0c-2-.1-4.92-.67-4.92-3.09,0-3.23,3.92-6.37,6.53-7,2.33-.55,7.3-.85,12.43-4.85a14.49,14.49,0,0,1,7.48-2.93c1-.1,2-.15,2.94-.16a14.76,14.76,0,0,1,8.31,2.42L42.38,6a10.64,10.64,0,0,0,4.83,1.68l1.65.15a2.57,2.57,0,0,1,2.33,2.56v6S51.11,19.5,45,19.5" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="12.97" cy="19.54" r="4.31" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="40" cy="19.54" r="4.31" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="12.97" y1="8.37" x2="30.22" y2="8.37" />
+                  </svg>
+                  легковая
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 47.5 24.62">
+                    <polygon fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500"
+                      stroke-linejoin="round" points="46 23.12 7.5 23.12 1.5 12.31 7.5 1.5 46 1.5 46 23.12" />
+                    <circle fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500" stroke-miterlimit="10"
+                      cx="11.89" cy="12.37" r="3.3" />
+                    <path fill="#ff8500" d="M23.33,15.17l-2.46-3.38v3.38h-2V8.5h2.08l2.32,3.16V8.5h2v6.67Z" />
+                    <path fill="#ff8500" d="M26.35,15.17V8.5h5.06v1.76h-3v.66h3v1.76h-3v.73h3v1.76Z" />
+                    <path fill="#ff8500"
+                      d="M37.4,15.17l-.86-3.78-.86,3.78H33.56L31.65,8.5h2.26l.86,4.08,1-4.08H37.3l1,4.08.85-4.08h2.27l-1.91,6.67Z" />
+                  </svg>
+                  новая
+                </div>
+              </div>
+            </div>
+
+            <div class="products__item">
+              <span class="products__mark">
+                Mark
+              </span>
+              <a href="#" class="products__item-title">
+                Антифриз Fosser Antifreeze
+              </a>
+              <div class="products__rating">
+                <div class="products__rating-stars stars--5">
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                  <div class="products__rating-star"></div>
+                </div>
+                <a href="#" class="products__rating-testimotional">
+                  Отзывы (<span>10</span>)
+                </a>
+                <div class="products__rating-present">
+                  В наличии: <span>24</span> шт.
+                </div>
+              </div>
+              <img src="./images/wheel-4.png" alt="wheel" class="products__item-img">
+
+              <div class="products__features"></div>
+              <div class="products__price">
+                <div class="products__price-new">599 грн.</div>
+                <div class="products__price-old"></div>
+              </div>
+              <button class="products__item-buy">
+                <svg viewBox="0 0 39.33 34.71">
+                  <line x1="34.29" y1="13.86" x2="24" y2="13.86" stroke-width="3px" stroke-linecap="round"
+                    stroke-miterlimit="10" fill="#fff" />
+                  <polyline points="1.5 1.5 8.67 1.5 18.17 20.57 32.83 20.57 37.83 6.8 19.5 6.8" stroke-width="3px"
+                    stroke-linejoin="round" stroke-linecap="round" fill="none" />
+                  <circle cx="19.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  <circle cx="32.04" cy="29.67" r="3.54" stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                </svg>
+                купить товар
+              </button>
+              <div class="products__btns">
+                <button class="products__btns-btn compare--btn">
+                  <svg viewBox="0 0 44.48 33.23">
+                    <line x1="7.17" y1="7.17" x2="16.01" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <line x1="28.69" y1="7.17" x2="37.53" y2="7.17" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <path d="M7.17,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <path d="M37.31,14.74l-4.91,8.5a5.67,5.67,0,0,0,4.91,8.5h0a5.67,5.67,0,0,0,4.91-8.5Z"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                    <line x1="22.39" y1="14.74" x2="22.39" y2="24.57" stroke-width="3px" stroke-miterlimit="10"
+                      stroke-linecap="round" fill="none" />
+                    <circle cx="22.35" cy="7.84" r="6.34" stroke-width="3px" stroke-miterlimit="10" fill="#fff" />
+                    <circle cx="22.35" cy="7.84" r="2.44" fill="#ff8500" />
+                  </svg>
+                  Сравнить товар
+                </button>
+                <button class="products__btns-btn favorite--btn">
+                  <svg viewBox="0 0 33.81 32.62">
+                    <path
+                      d="M23.95,9.29l6.84,2.12a2.15,2.15,0,0,1,1.05,3.39L27.4,20.41a2.15,2.15,0,0,0-.46,1.37l.1,7.16a2.15,2.15,0,0,1-2.9,2l-6.71-2.49a2.15,2.15,0,0,0-1.44,0L9.19,30.78a2.15,2.15,0,0,1-2.84-2.13l.3-7.15a2.15,2.15,0,0,0-.43-1.38L1.93,14.38A2.15,2.15,0,0,1,3.07,11L10,9.09a2.15,2.15,0,0,0,1.18-.83l4.13-5.85a2.15,2.15,0,0,1,3.55,0l4,6A2.15,2.15,0,0,0,23.95,9.29Z"
+                      stroke-width="3px" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    <circle cx="16.94" cy="17.27" r="4.05" transform="translate(-7.07 20.24) rotate(-52.6)"
+                      stroke-width="3px" stroke-miterlimit="10" fill="none" />
+                  </svg>
+                  В избранное
+                </button>
+              </div>
+              <div class="products__extra">
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 37.29 37.29">
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      cx="18.65" cy="18.7" r="5.45" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="8.22" x2="18.65" y2="1.5" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="18.65" y1="35.79" x2="18.65" y2="29.08" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="11.27" x2="30.77" y2="6.52" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="30.77" x2="11.27" y2="26.02" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="29.08" y1="18.65" x2="35.79" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="1.5" y1="18.65" x2="8.22" y2="18.65" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="26.02" y1="26.02" x2="30.77" y2="30.77" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3px"
+                      x1="6.52" y1="6.52" x2="11.27" y2="11.27" />
+                  </svg>
+                  летняя
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 52.69 25.35">
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="35.22" y1="19.5" x2="17.4" y2="19.5" />
+                    <path fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      d="M8.26,19.5a14.4,14.4,0,0,1-1.84,0c-2-.1-4.92-.67-4.92-3.09,0-3.23,3.92-6.37,6.53-7,2.33-.55,7.3-.85,12.43-4.85a14.49,14.49,0,0,1,7.48-2.93c1-.1,2-.15,2.94-.16a14.76,14.76,0,0,1,8.31,2.42L42.38,6a10.64,10.64,0,0,0,4.83,1.68l1.65.15a2.57,2.57,0,0,1,2.33,2.56v6S51.11,19.5,45,19.5" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="12.97" cy="19.54" r="4.31" />
+                    <circle fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      cx="40" cy="19.54" r="4.31" />
+                    <line fill="none" stroke="#ff8500" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px"
+                      x1="12.97" y1="8.37" x2="30.22" y2="8.37" />
+                  </svg>
+                  легковая
+                </div>
+                <div class="products__extra-item">
+                  <svg viewBox="0 0 47.5 24.62">
+                    <polygon fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500"
+                      stroke-linejoin="round" points="46 23.12 7.5 23.12 1.5 12.31 7.5 1.5 46 1.5 46 23.12" />
+                    <circle fill="none" stroke-linecap="round" stroke-width="3px" stroke="#ff8500" stroke-miterlimit="10"
+                      cx="11.89" cy="12.37" r="3.3" />
+                    <path fill="#ff8500" d="M23.33,15.17l-2.46-3.38v3.38h-2V8.5h2.08l2.32,3.16V8.5h2v6.67Z" />
+                    <path fill="#ff8500" d="M26.35,15.17V8.5h5.06v1.76h-3v.66h3v1.76h-3v.73h3v1.76Z" />
+                    <path fill="#ff8500"
+                      d="M37.4,15.17l-.86-3.78-.86,3.78H33.56L31.65,8.5h2.26l.86,4.08,1-4.08H37.3l1,4.08.85-4.08h2.27l-1.91,6.67Z" />
+                  </svg>
+                  новая
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__top">
+              <div class="footer__item">
+                <h3 class="footer__item-title">
+                  Блок 1
+                </h3>
+                <h2 class="footer__item-description">
+                  Будьте в курсе новостей и новинок!
+                  <span>Подписывайтесь на рассылку</span>
+                </h2>
+                <form action="" class="footer__form">
+                  <input type="email" name="email" class="footer__form-input"
+                    placeholder="Укажите свой email для подписки" data-validate-field="email" />
+                  <button class="footer__form-btn">
+                    подписаться
+                  </button>
+                </form>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-title">
+                  Блок ссылок 1
+                </h3>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 1</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 2</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 3</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-title">
+                  Блок 2
+                </h3>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 1</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 2</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 3</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 4</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__item">
+                <h3 class="footer__item-title">
+                  Блок ссылок 3
+                </h3>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 1</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 2</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 3</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">Ссылка 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <div class="footer__logo">
+                <a href="#">
+                  <img src="./images/logo-footer.png" alt="logo" class="footer__logo-img">
+                </a>
+                <span>
+                  © Copyrith 2017. Тестовое задание Wezom
+                </span>
+              </div>
+              <div class="footer__socials">
+                <a href="#" class="footer__socials__link">
+                  <svg width="16px" height="9px">
+                    <path fill-rule="evenodd"
+                      d="M13.770,5.722 C14.301,6.238 14.861,6.722 15.337,7.289 C15.548,7.541 15.747,7.801 15.899,8.094 C16.115,8.509 15.919,8.967 15.544,8.991 L13.213,8.990 C12.612,9.040 12.133,8.799 11.729,8.391 C11.407,8.064 11.108,7.716 10.797,7.379 C10.670,7.241 10.537,7.111 10.378,7.008 C10.060,6.803 9.784,6.865 9.602,7.195 C9.417,7.531 9.375,7.902 9.356,8.276 C9.331,8.822 9.166,8.966 8.614,8.990 C7.436,9.046 6.318,8.869 5.279,8.278 C4.363,7.757 3.653,7.022 3.034,6.189 C1.831,4.568 0.909,2.787 0.081,0.955 C-0.106,0.543 0.031,0.322 0.488,0.314 C1.249,0.299 2.009,0.300 2.771,0.313 C3.080,0.317 3.284,0.493 3.404,0.784 C3.815,1.789 4.318,2.746 4.950,3.633 C5.119,3.869 5.290,4.105 5.535,4.271 C5.805,4.455 6.011,4.394 6.138,4.094 C6.219,3.905 6.254,3.701 6.272,3.497 C6.332,2.798 6.340,2.100 6.235,1.403 C6.170,0.968 5.923,0.686 5.487,0.604 C5.264,0.562 5.297,0.480 5.405,0.353 C5.592,0.136 5.768,-0.000 6.120,-0.000 L8.754,-0.000 C9.169,0.081 9.261,0.266 9.318,0.681 L9.320,3.590 C9.315,3.750 9.401,4.227 9.692,4.333 C9.925,4.409 10.078,4.223 10.218,4.077 C10.848,3.411 11.299,2.625 11.701,1.811 C11.879,1.453 12.033,1.081 12.181,0.709 C12.292,0.434 12.465,0.298 12.777,0.304 L15.312,0.306 C15.388,0.306 15.464,0.307 15.536,0.319 C15.964,0.392 16.081,0.575 15.949,0.989 C15.741,1.640 15.336,2.182 14.941,2.727 C14.518,3.308 14.066,3.870 13.647,4.455 C13.261,4.989 13.292,5.259 13.770,5.722 L13.770,5.722 Z" />
+                  </svg>
+                </a>
+                <a href="#" class="footer__socials__link">
+                  <svg width="8px" height="16px">
+                    <path fill-rule="evenodd"
+                      d="M7.698,0.003 L5.780,-0.001 C3.624,-0.001 2.231,1.545 2.231,3.937 L2.231,5.752 L0.302,5.752 C0.135,5.752 -0.000,5.899 -0.000,6.079 L-0.000,8.710 C-0.000,8.890 0.135,9.036 0.302,9.036 L2.231,9.036 L2.231,15.674 C2.231,15.854 2.366,16.000 2.533,16.000 L5.050,16.000 C5.216,16.000 5.351,15.854 5.351,15.674 L5.351,9.036 L7.607,9.036 C7.774,9.036 7.909,8.890 7.909,8.710 L7.910,6.079 C7.910,5.993 7.878,5.910 7.821,5.848 C7.765,5.787 7.688,5.752 7.608,5.752 L5.351,5.752 L5.351,4.214 C5.351,3.474 5.515,3.098 6.405,3.098 L7.698,3.098 C7.865,3.098 8.000,2.952 8.000,2.772 L8.000,0.329 C8.000,0.149 7.865,0.003 7.698,0.003 Z" />
+                  </svg>
+                </a>
+                <a href="#" class="footer__socials__link">
+                  <svg width="16px" height="13px">
+                    <path fill-rule="evenodd"
+                      d="M15.559,0.240 C14.924,0.616 14.221,0.889 13.473,1.037 C12.874,0.398 12.022,-0.000 11.078,-0.000 C9.264,-0.000 7.795,1.470 7.795,3.282 C7.795,3.539 7.824,3.790 7.880,4.030 C5.152,3.893 2.733,2.585 1.114,0.600 C0.832,1.084 0.671,1.648 0.671,2.250 C0.671,3.389 1.251,4.394 2.130,4.981 C1.592,4.964 1.087,4.816 0.644,4.570 L0.644,4.611 C0.644,6.201 1.775,7.527 3.276,7.830 C3.001,7.904 2.711,7.945 2.412,7.945 C2.200,7.945 1.995,7.924 1.793,7.885 C2.211,9.189 3.423,10.138 4.859,10.166 C3.736,11.046 2.320,11.570 0.783,11.570 C0.518,11.570 0.257,11.554 -0.000,11.525 C1.453,12.456 3.177,13.000 5.031,13.000 C11.069,13.000 14.370,7.998 14.370,3.660 L14.360,3.235 C15.003,2.774 15.560,2.196 16.000,1.538 C15.411,1.799 14.779,1.976 14.115,2.055 C14.793,1.648 15.313,1.005 15.559,0.240 Z" />
+                  </svg>
+                </a>
+                <a href="#" class="footer__socials__link">
+                  <svg width="16px" height="11px">
+                    <path fill-rule="evenodd"
+                      d="M15.376,0.944 C14.799,0.273 13.732,-0.000 11.696,-0.000 L4.304,-0.000 C2.221,-0.000 1.136,0.291 0.561,1.005 C-0.000,1.701 -0.000,2.727 -0.000,4.147 L-0.000,6.853 C-0.000,9.603 0.665,11.000 4.304,11.000 L11.696,11.000 C13.462,11.000 14.440,10.758 15.074,10.166 C15.723,9.560 16.000,8.568 16.000,6.853 L16.000,4.147 C16.000,2.649 15.956,1.618 15.376,0.944 ZM10.272,5.873 L6.915,7.587 C6.840,7.626 6.758,7.644 6.676,7.644 C6.583,7.644 6.491,7.620 6.409,7.572 C6.254,7.480 6.160,7.317 6.160,7.140 L6.160,3.724 C6.160,3.548 6.254,3.384 6.408,3.293 C6.562,3.201 6.754,3.195 6.914,3.276 L10.271,4.979 C10.441,5.066 10.549,5.238 10.549,5.426 C10.549,5.614 10.442,5.786 10.272,5.873 Z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="footer__developer">
+                <a href="#" class="footer__developer-link">
+                  <img src="./images/svg/wezom-logo.svg" alt="wezom logo" class="footer__developer-logo">
+                </a>
+                <div class="footer__developer-content">
+                  Разработка тестового
+                  <span>Wezom Agency</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="modal-enter">
+        <div class="modal-enter__wrapper">
+          <h2 class="modal-enter__title">
+            Перезвоните мне
+          </h2>
+          <form action="" class="modal-enter__form">
+            <label for="modal-enter__mask" class="modal-enter__form-label">
+              Номер телефона
+              <input type="tel" name="tel" class="modal-enter__form-input" id="modal-enter__mask"
+                placeholder="+38(0__)___-__-__" data-validate-field="tel" />
+            </label>
+            <button class="modal-enter__form-btn">Перезвоните мне</button>
+          </form>
+          <div class="modal__close"></div>
+        </div>
+      </div>
+
+      <div class="modal-callback">
+        <div class="modal-callback__wrapper">
+
+          <div class="modal-callback__enter">
+            <h2 class="modal-callback__enter-title">
+              Вход в личный кабинет
+            </h2>
+            <form action="" class="modal-callback__form">
+              <label for="email" class="modal-callback__form-label">
+                Ваш email
+                <input type="email" name="email" id="email" class="modal-callback__form-input"
+                  placeholder="mikel_ivanov98@gmail.com" data-validate-field="email" />
+              </label>
+              <label for="password" class="modal-callback__form-label">
+                Пароль
+                <input type="password" name="password" id="password" class="modal-callback__form-input"
+                  placeholder="***********" data-validate-field="password" />
+              </label>
+
+              <label for="remember" class="modal-callback__checkbox-label">
+                <input type="checkbox" name="checkbox" id="remember" class="modal-callback__checkbox-input"
+                  data-validate-field="checkbox" />
+                <div class="modal-callback__checkbox-text">Запомните меня</div>
+              </label>
+
+              <div class="modal-callback__form-links">
+                <a href="#" class="modal-callback__form-link">Забыли пароль?</a>
+                <a href="#" class="modal-callback__form-link">Регистрация</a>
+              </div>
+              <button type="submit" class="modal-callback__form-btn">
+                Войти в личный кабинет
+              </button>
+            </form>
+          </div>
+
+          <div class="modal-callback__border"></div>
+
+          <div class="modal-callback__help">
+            <h2 class="modal-callback__help-title">
+              Войти с помощью
+            </h2>
+            <div class="modal-callback__btns">
+              <button class="modal-callback__btns-btn">
+                <svg width="9px" height="16px">
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M8.661,0.003 L6.502,-0.000 C4.077,-0.000 2.510,1.545 2.510,3.937 L2.510,5.753 L0.340,5.753 C0.152,5.753 0.000,5.899 0.000,6.079 L0.000,8.710 C0.000,8.890 0.152,9.036 0.340,9.036 L2.510,9.036 L2.510,15.674 C2.510,15.854 2.662,16.000 2.849,16.000 L5.681,16.000 C5.868,16.000 6.020,15.854 6.020,15.674 L6.020,9.036 L8.558,9.036 C8.746,9.036 8.898,8.890 8.898,8.710 L8.899,6.079 C8.899,5.993 8.863,5.910 8.799,5.849 C8.735,5.787 8.649,5.753 8.559,5.753 L6.021,5.753 L6.021,4.214 C6.021,3.474 6.204,3.098 7.206,3.098 L8.661,3.098 C8.848,3.098 9.000,2.952 9.000,2.772 L9.000,0.329 C9.000,0.149 8.848,0.003 8.661,0.003 Z" />
+                </svg>
+                Facebook
+              </button>
+              <button class="modal-callback__btns-btn">
+                <svg width="16px" height="13px">
+                  <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                    d="M15.559,0.240 C14.924,0.616 14.221,0.889 13.473,1.037 C12.874,0.398 12.022,-0.000 11.078,-0.000 C9.264,-0.000 7.795,1.470 7.795,3.282 C7.795,3.539 7.824,3.790 7.880,4.030 C5.152,3.893 2.733,2.586 1.115,0.600 C0.832,1.084 0.671,1.648 0.671,2.250 C0.671,3.389 1.251,4.394 2.130,4.982 C1.592,4.964 1.087,4.816 0.644,4.570 L0.644,4.611 C0.644,6.201 1.776,7.527 3.276,7.830 C3.001,7.904 2.712,7.945 2.412,7.945 C2.200,7.945 1.995,7.924 1.794,7.886 C2.212,9.189 3.423,10.139 4.859,10.166 C3.736,11.046 2.320,11.570 0.783,11.570 C0.518,11.570 0.257,11.555 -0.000,11.525 C1.453,12.456 3.177,13.000 5.032,13.000 C11.069,13.000 14.370,7.998 14.370,3.660 L14.360,3.235 C15.003,2.774 15.561,2.196 16.000,1.538 C15.411,1.799 14.779,1.976 14.116,2.055 C14.793,1.649 15.313,1.005 15.559,0.240 Z" />
+                </svg>
+                Twitter
+              </button>
+              <button class="modal-callback__btns-btn">
+                <svg viewBox="0 0 1792 1792">
+                  <path
+                    d="M896 786h725q12 67 12 128 0 217-91 387.5t-259.5 266.5-386.5 96q-157 0-299-60.5t-245-163.5-163.5-245-60.5-299 60.5-299 163.5-245 245-163.5 299-60.5q300 0 515 201l-209 201q-123-119-306-119-129 0-238.5 65t-173.5 176.5-64 243.5 64 243.5 173.5 176.5 238.5 65q87 0 160-24t120-60 82-82 51.5-87 22.5-78h-436v-264z" />
+                </svg>
+                Google
+              </button>
+            </div>
+          </div>
+
+          <div class="modal__close"></div>
+        </div>
+
+      </div>
+
+      <div class="modal-subscription">
+        <div class="modal-subscription__wrapper">
+          <div class="modal-subscription__text">
+            Вы успешно подписаны на рассылку!
+          </div>
+          <div class="modal__close"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="../node_modules//just-validate/dist/js/just-validate.min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
+
 </html>
